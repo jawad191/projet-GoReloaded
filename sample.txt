@@ -1,0 +1,8 @@
+Open sample.txt and paste this test text:
+hello world (up)
+HELLO WORLD (low)
+hello world (cap)
+1E (hex)
+10 (bin)
+a amazing result
+I was sitting over there ,and then BAMM !!

@@ -1,0 +1,8 @@
+Open sample. txt and paste this test text:
+hello WORLD
+HELLO world
+hello World
+30
+2
+an amazing result
+I was sitting over there, and then BAMM! !
