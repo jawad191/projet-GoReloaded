@@ -1,33 +1,27 @@
-# Go-reloaded
+# 🚀 Go-reloaded
 
-A command-line text transformation project written in Go.
+A **Go-based text transformation tool** developed as part of my Bachelor 1 Informatique studies at Ynov.
 
-## Features
-- `(up)`, `(low)`, `(cap)` and numbered variants such as `(up, 2)`
-- Hexadecimal `(hex)` and binary `(bin)` conversion
-- Punctuation and quote spacing fixes
-- `a` to `an` before a word beginning with a vowel or `h`
-- Preserves input line breaks
-- Helpful file and argument errors
+### ✨ Features
+- 🔢 Hexadecimal and binary conversion
+- 🔠 Uppercase, lowercase and capitalization
+- ✍️ Punctuation and quotation formatting
+- 📝 Automatic article correction (`a` → `an`)
+- 📄 Preserves line breaks
 
-## Run
-Open a terminal in this folder:
+### ⚙️ Usage
 
-```powershell
+```bash
 go run . sample.txt result.txt
 ```
 
-The program reads `sample.txt` and writes the transformed text to `result.txt`.
+The program reads an input file, applies the required transformations, and writes the result to an output file.
 
-## Test
-Run automated tests with:
+### 🛠️ Built With
+**Go · Git · GitHub**
 
-```powershell
-go test ./...
-```
+---
 
-## Files
-- `main.go`: application
-- `main_test.go`: automated tests
-- `tests/`: sample test inputs
-- `GITHUB.md`: instructions for uploading to GitHub
+*Academic project — Bachelor 1 Informatique, Ynov.*
+
+
