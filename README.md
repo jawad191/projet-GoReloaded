@@ -1,13 +1,13 @@
-# 🚀 Go-reloaded
+# Go-reloaded
 
 A **Go-based text transformation tool** developed as part of my Bachelor 1 Informatique studies at Ynov.
 
 ###  Features
-- 🔢 Hexadecimal and binary conversion
-- 🔠 Uppercase, lowercase and capitalization
-- ✍️ Punctuation and quotation formatting
-- 📝 Automatic article correction (`a` → `an`)
-- 📄 Preserves line breaks
+-  Hexadecimal and binary conversion
+-  Uppercase, lowercase and capitalization
+-  Punctuation and quotation formatting
+-  Automatic article correction (`a` → `an`)
+-  Preserves line breaks
 
 ### Usage
 
