@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -89,9 +88,13 @@ func transformLine(line string) string {
 						base = 2
 					}
 
-					number, err := strconv.ParseInt(result[last], base, 64)
+					
+					cleanNum := strings.TrimRight(result[last], ".,!?;:")
+					number, err := strconv.ParseInt(cleanNum, base, 64)
 					if err == nil {
-						result[last] = strconv.FormatInt(number, 10)
+						
+						punct := strings.TrimPrefix(result[last], cleanNum)
+						result[last] = strconv.FormatInt(number, 10) + punct
 					}
 				}
 				continue
